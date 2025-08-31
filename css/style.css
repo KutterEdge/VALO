@@ -7288,7 +7288,7 @@ body {
       -o-transform: translateX(0);
       transform: translateX(0);
       width: 270px;
-      background: #fff;
+      background: #000;
       z-index: 999;
       position: fixed; }
     body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -7323,18 +7323,18 @@ h1, h2, h3, h4, h5,
   background-color: #000; }
 
 #colorlib-aside {
-  padding-top: 3em;
-  padding-bottom: 40px;
-  padding-left: 3em;
-  padding-right: 3em;
+  background-image: url(..//images/space.jpg);
+  padding-top: 0em;
+  padding-bottom: 0px;
+  padding-left: 0em;
+  padding-right: 0em;
   width: 25%;
   position: fixed;
   bottom: 0;
   top: 0;
   left: 0;
-  overflow-y: scroll;
-  z-index: 1001;
-  background: rgba(0, 0, 0, 0.04);
+  overflow-y: visible;
+  z-index: 10;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -7378,7 +7378,7 @@ h1, h2, h3, h4, h5,
       font-size: 16px;
       font-weight: 700; }
       #colorlib-aside #colorlib-main-menu ul li a {
-        color: #00;
+        color: #000;
         text-decoration: none;
         position: relative;
         padding: 10px 0;
@@ -7641,8 +7641,8 @@ h1, h2, h3, h4, h5,
       letter-spacing: 2px;
       color: #00ff00; }
   .photography-entry:hover .overlay, .photography-entry:focus .overlay {
-    opacity: .7; 
-  background-color: #000;}
+    opacity: .0; 
+  background-color: transparent;}
   .photography-entry:hover .text, .photography-entry:focus .text {
     opacity: 1; }
 
