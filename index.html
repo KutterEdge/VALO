@@ -1,91 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Valhalla Logistics</title>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Valhalla Logistics Inc.</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="images/Capture.PNG" rel="icon">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="img/24x24.png" rel="icon">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
 
-    <link rel="stylesheet" href="css/aos.css">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-	<div id="colorlib-page">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
-			<img src="/images/Capture.PNG">
-			<h1 id="colorlib-logo"><a href="index.html">Valhalla Logistics</a></h1>
-			<nav id="colorlib-main-menu" role="navigation">
-				<ul>
-					<li class="colorlib-active"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="command.html">Command</a></li><br>
-					<li><a href="https://inara.cz/elite/squadron/17313/"><img src="images/logo5.png"></a></li><br><br>
-					<li>Valhalla Logistics leverages a variety of HCS Voice Packs to ensure every delivery and operation is executed with clarity, precision, and mythic flair. By matching voice profiles to mission types, they keep the team synchronized and immersed in a legendary Viking saga<a href="https://www.hcsvoicepacks.com/?sca_ref=7233077.7OgyAPJHcr" target="_blank"><img src="images/logo.png"></a></li>	
-				</ul>
-			</nav>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-black position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
 
-			<div class="colorlib-footer">
-				<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<br> This template is made by<a href="https://kutteredgestudios.com" target="_blank"><img src="images/KES logo.png" width="75px" height="75px"></a>
-				</div>
-		</aside> <!-- END COLORLIB-ASIDE -->
-		<div id="colorlib-main">
-			<div class="hero-wrap js-fullheight" style="background-image: url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="js-fullheight d-flex justify-content-center align-items-center">
-					<div class="col-md-8 text text-center">
-						<div class="img mb-4" style="background-image: url(images/elite-dangerous-logo-2018.png);"></div>
-						<div class="desc">
-							<h1 class="mb-3 text-white">Valhalla Logistics</h1>
-							<p class="mb-4">At Valhalla Logistics, we deliver with honor, precision, and relentless drive—empowering every journey with the strength of legends and the reliability of warriors. Our mission is to forge seamless supply chains, elevate client trust, and conquer logistical challenges with bold strategy and unwavering commitment.</p>
-							<p><a href="about.html" class="btn-custom">More About Us <span class="ion-ios-arrow-forward"></span></a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative mb-5">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/space.png" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row text-center justify-content-center">
+                            <div class="col-10 col-lg-8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
 
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
-  </body>
+    <!-- About Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container about py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 100px;">
+                    <div class="position-relative h-100">
+                        <img class="position-relative w-100 h-100" src="img/space7.jpg"
+                            style="object-fit: contain;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="text-primary text-uppercase mb-3">//About Us\\</h6>
+                    <h1 class="mb-5">Valhalla Logistics Inc.</h1>
+                    <p class="mb-5">Valhalla Logistics began as a small, tight‑knit wing of independent pilots operating
+                        on the fringes of human‑controlled space in Elite Dangerous. The founding members—combat‑tested
+                        haulers, scouts, and explorers—shared a simple creed: honor, precision, relentless drive.
+                        Initially, the group specialized in high‑risk cargo runs through anarchic systems where most
+                        traders refused to fly. Their reputation grew quickly.</p>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                            <h5>Valhalla pilots became known for:</h5>
+                            <p class="m-0">
+                            <ul>
+                                <li>Delivering cargo intact despite interdictions</li>
+                                <li>Running escort for allied factions</li>
+                                <li>Supporting expansion efforts with logistics, intel, and tactical hauling</li>
+                                <li>Maintaining strict confidentiality for all members</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <h5>This era saw:</h5>
+                            <p class="m-0">
+                            <ul>
+                                <li>The creation of standardized training protocols</li>
+                                <li>A unified identity system to protect member anonymity</li>
+                                <li>Expansion of the Valhalla ethos into new genres and platforms</li>
+                                <li>Early scouting of the developing Star Citizen universe</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <h5>Valhalla’s operations expanded dramatically, now including:</h5>
+                            <p class="m-0">
+                            <ul>
+                                <li>Industrial logistics: cargo hauling, refining, salvage coordination</li>
+                                <li>Security operations: escort wings, overwatch teams, rapid‑response units</li>
+                                <li>Exploration & reconnaissance: charting routes, scouting jump points, surveying
+                                    resource nodes</li>
+                                <li>Corporate contracting: supporting allied orgs with supply chain management and
+                                    tactical planning</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <h5>Truck Books</h5>
+                            <p class="m-0">The group’s Elite Dangerous legacy gave them a unique advantage: they already
+                                understood how to operate in dangerous, player‑driven environments where trust and
+                                discipline matter more than raw firepower.<br>
+                                Valhalla’s reputation in the ‘verse quickly solidified. Their commitment to
+                                confidentiality—protecting member identities and operational details—became a defining
+                                trait. Their motto remained unchanged, a bridge between galaxies:
+                                Honor. Precision. Relentless Drive</p>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <h5>Modern Era: A Multi‑Universe Logistics Powerhouse</h5>
+                            <p class="m-0">Today, Valhalla Logistics Inc. stands as a cross‑platform, cross‑universe
+                                organization with a unified culture and a growing influence. Whether navigating the
+                                political tensions of the UEE or the chaotic frontier of Elite space, Valhalla maintains
+                                the same core mission:
+                                Deliver what others can’t. Operate where others won’t.
+                                Protect those who trust them.
+                                The company continues to expand its fleet, refine its training, and build alliances
+                                across both universes—positioning itself as a premier logistics and tactical support
+                                entity in the modern era of space‑sim gaming.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase">//Our Services\\</h6>
+                <h1 class="mb-5">Explore Our Services</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/jobs/trading.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Trade / Hauling</h4>
+                        <p>Buy low, sell high; carry cargo, sometimes illegally (smuggling)</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/jobs/mining.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Mining</h4>
+                        <p>Extract valuable minerals from asteroids or planets</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/jobs/bounty hunting.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Bounty Hunting / Mercenary</h4>
+                        <p>Hunt wanted criminals or take on combat contracts</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/jobs/exploration.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Exploration</h4>
+                        <p>Discover new star systems, map planets, find resources</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/jobs/salvage.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Salvaging</h4>
+                        <p>Recover components or cargo from derelict or destroyed ships</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/jobs/transport.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Passenger Transport</h4>
+                        <p>Take VIPs or tourists on scenic (or dangerous) tours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase">//Our Comms Links\\</h6>
+                <h1 class="mb-5">Communications Network</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <a href="https://discord.gg/NREFTRSPcZ" target="_blank"><img class="img-fluid" src="img/links/discord.png" alt=""></a>
+                        </div>
+                       </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <a href="https://inara.cz/elite/squadron/17313/" target="_blank"><img class="img-fluid" src="img/links/logo5.png" alt=""></a>
+                        </div></div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <a href="https://robertsspaceindustries.com/en/orgs/VALO" target="_blank"><img class="img-fluid" src="img/links/spectrum.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <a href="https://www.hcsvoicepacks.com?sca_ref=7233077.7OgyAPJHcr" target="_blank" ><img class="img-fluid" src="img/links/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase">//Our Team\\</h6>
+                <h1 class="mb-5">Expert Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/pilots/kutter.png" alt="">
+                        </div>
+                        <h5 class="mb-0">Kutter Edge</h5>
+                        <p>Board Member</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/pilots/viking1.png" alt="">
+                        </div>
+                        <h5 class="mb-0">LoneViking</h5>
+                        <p>Board Member</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/pilots/ama.png" alt="">
+                        </div>
+                        <h5 class="mb-0">SOLUS</h5>
+                        <p>Board Member</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem;">
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy;<script>document.write(new Date().getFullYear());</script> Valhalla Logistics Inc. | All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://kutteredgestudios.com" target="_blank">Kutter
+                            Edge Studios</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
